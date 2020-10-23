@@ -11,6 +11,8 @@ inputs:
 outputs:
   log:
     description: 'git logs'
+  tag
+    description: 'Triggered tag'
 runs:
   using: 'docker'
   image: 'Dockerfile'
